@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Leecode", "Leecode\Leecode.csproj", "{FFC0D203-22C7-46E9-B73C-5113D50B52AB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{0B77C0A0-319F-11EA-A8C5-DF883BD61137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCodeTests", "Tests\LeetCodeTests\LeetCodeTests.csproj", "{A916CD84-5F95-4684-9569-A8672A051BDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,20 @@ Global
 		{FFC0D203-22C7-46E9-B73C-5113D50B52AB}.Release|x64.Build.0 = Release|Any CPU
 		{FFC0D203-22C7-46E9-B73C-5113D50B52AB}.Release|x86.ActiveCfg = Release|Any CPU
 		{FFC0D203-22C7-46E9-B73C-5113D50B52AB}.Release|x86.Build.0 = Release|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Debug|x64.Build.0 = Debug|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Debug|x86.Build.0 = Debug|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Release|x64.ActiveCfg = Release|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Release|x64.Build.0 = Release|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Release|x86.ActiveCfg = Release|Any CPU
+		{A916CD84-5F95-4684-9569-A8672A051BDF}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A916CD84-5F95-4684-9569-A8672A051BDF} = {0B77C0A0-319F-11EA-A8C5-DF883BD61137}
 	EndGlobalSection
 EndGlobal

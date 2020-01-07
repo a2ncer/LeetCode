@@ -1,19 +1,18 @@
 using System.Collections.Generic;
 
-namespace Leecode.AddTwoNumbers
+namespace Leecode.Impl.AddTwoNumbers
 {
     public class ListNode
     {
-        public int val;
-        public ListNode next;
-        public ListNode(int x) { val = x; }
+        public int Value { get; set; }
+        public ListNode Next { get; set; }
+        public ListNode(int x) { Value = x; }
     }
 
     public partial class Solution
     {
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {
-
             ListNode root = null;
             ListNode prevOne = null;
 
@@ -21,9 +20,8 @@ namespace Leecode.AddTwoNumbers
 
             do
             {
-
-                int a = l1 == null ? 0 : l1.val;
-                int b = l2 == null ? 0 : l2.val;
+                int a = l1 == null ? 0 : l1.Value;
+                int b = l2 == null ? 0 : l2.Value;
 
                 int sum = a + b + previous;
 
@@ -39,13 +37,12 @@ namespace Leecode.AddTwoNumbers
                 else
                 {
                     var next = new ListNode(sum);
-                    prevOne.next = next;
+                    prevOne.Next = next;
                     prevOne = next;
                 }
 
-                l1 = l1?.next;
-                l2 = l2?.next;
-
+                l1 = l1?.Next;
+                l2 = l2?.Next;
             }
             while (l1 != null || l2 != null || previous == 1);
 

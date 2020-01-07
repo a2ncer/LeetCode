@@ -1,6 +1,6 @@
 using System;
 
-namespace Leecode.LengthOfLongestSubstring
+namespace Leecode.Impl.LengthOfLongestSubstring
 {
     public partial class Solution
     {

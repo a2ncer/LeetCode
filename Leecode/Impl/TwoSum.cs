@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Leecode.TwoSum
+namespace Leecode.Impl.TwoSum
 {
     public partial class Solution
     {

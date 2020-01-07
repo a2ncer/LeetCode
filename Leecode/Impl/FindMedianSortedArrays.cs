@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Leecode.FindMedianSortedArrays
+namespace Leecode.Impl.FindMedianSortedArrays
 {
     public class Mediana
     {
@@ -44,7 +44,7 @@ namespace Leecode.FindMedianSortedArrays
         }
     }
 
-    public partial class Solution
+    public class Solution
     {
         public double FindMedianSortedArrays(int[] nums1, int[] nums2)
         {
