@@ -23,7 +23,7 @@ namespace LeetCodeTests
         public void Test(int[] nums1, int[] nums2, double expected)
         {
             double actual = solution.FindMedianSortedArrays(nums1, nums2);
-
+            
             Assert.Equal(expected, actual);
         }
     }

@@ -11,7 +11,8 @@ namespace LeetCodeTests
         [Fact]
         public void Test()
         {
-            var actual = solution.LengthOfLongestSubstring("dfdv");
+            int actual = solution.LengthOfLongestSubstring("dfdv");
+            
             Assert.Equal(3, actual);
         }
 

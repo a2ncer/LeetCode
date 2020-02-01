@@ -14,10 +14,9 @@ namespace LeetCodeTests
         [InlineData(1534236469, 0)]
         public void Test(int input, int expected)
         {
-            int result = solution.Reverse(input);
-
-            Assert.Equal(expected, result);
+            int actual = solution.Reverse(input);
+            
+            Assert.Equal(expected, actual);
         }
-
     }
 }

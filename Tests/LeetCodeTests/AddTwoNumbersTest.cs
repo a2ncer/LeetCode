@@ -13,7 +13,7 @@ namespace LeetCodeTests
         [Fact]
         public void Test1()
         {
-            var l1 = new ListNode(2)
+            ListNode l1 = new ListNode(2)
             {
                 Next = new ListNode(4)
                 {
@@ -21,7 +21,7 @@ namespace LeetCodeTests
                 }
             };
 
-            var l2 = new ListNode(5)
+            ListNode l2 = new ListNode(5)
             {
                 Next = new ListNode(6)
                 {
@@ -29,9 +29,9 @@ namespace LeetCodeTests
                 }
             };
 
-            var a = solution.AddTwoNumbers(l1, l2);
-            var b = a.Next;
-            var c = b.Next;
+            ListNode a = solution.AddTwoNumbers(l1, l2);
+            ListNode b = a.Next;
+            ListNode c = b.Next;
 
             Assert.Equal(7, a.Value);
             Assert.Equal(0, b.Value);
@@ -41,12 +41,10 @@ namespace LeetCodeTests
         [Fact]
         public void Test2()
         {
-            var l1 = new ListNode(0);
-
-            var l2 = new ListNode(0);
-
-            var a = solution.AddTwoNumbers(l1, l2);
-
+            ListNode l1 = new ListNode(0);
+            ListNode l2 = new ListNode(0);
+            ListNode a = solution.AddTwoNumbers(l1, l2);
+            
             Assert.Equal(0,a.Value);
         }
     }
