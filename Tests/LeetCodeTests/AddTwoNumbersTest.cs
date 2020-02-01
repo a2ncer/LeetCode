@@ -1,5 +1,5 @@
 using Xunit;
-using Leecode.Impl.AddTwoNumbers;
+using Leetcode.Impl.AddTwoNumbers;
 
 namespace LeetCodeTests
 {

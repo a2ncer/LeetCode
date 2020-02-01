@@ -1,4 +1,4 @@
-namespace Leecode.Impl.AddTwoNumbers
+namespace Leetcode.Impl.AddTwoNumbers
 {
     public class ListNode
     {
@@ -7,7 +7,7 @@ namespace Leecode.Impl.AddTwoNumbers
         public ListNode(int x) { Value = x; }
     }
 
-    public partial class Solution
+    public class Solution
     {
         public ListNode AddTwoNumbers(ListNode l1, ListNode l2)
         {

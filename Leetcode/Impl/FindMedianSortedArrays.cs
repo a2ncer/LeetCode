@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Leecode.Impl.FindMedianSortedArrays
+namespace Leetcode.Impl.FindMedianSortedArrays
 {
     public class Mediana
     {

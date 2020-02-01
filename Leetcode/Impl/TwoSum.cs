@@ -1,9 +1,9 @@
 using System;
 using System.Collections.Generic;
 
-namespace Leecode.Impl.TwoSum
+namespace Leetcode.Impl.TwoSum
 {
-    public partial class Solution
+    public class Solution
     {
         public int[] TwoSum(int[] nums, int target)
         {

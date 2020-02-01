@@ -1,5 +1,5 @@
 using Xunit;
-using Leecode.Impl.LengthOfLongestSubstring;
+using Leetcode.Impl.LengthOfLongestSubstring;
 
 namespace LeetCodeTests
 {

@@ -1,5 +1,5 @@
 using Xunit;
-using Leecode.Impl.FindMedianSortedArrays;
+using Leetcode.Impl.FindMedianSortedArrays;
 
 namespace LeetCodeTests
 {

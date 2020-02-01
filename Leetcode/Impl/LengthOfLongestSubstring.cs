@@ -1,8 +1,8 @@
 using System;
 
-namespace Leecode.Impl.LengthOfLongestSubstring
+namespace Leetcode.Impl.LengthOfLongestSubstring
 {
-    public partial class Solution
+    public class Solution
     {
         public int LengthOfLongestSubstring(string s)
         {
